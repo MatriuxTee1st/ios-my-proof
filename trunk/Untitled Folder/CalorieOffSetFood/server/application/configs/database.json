@@ -1,0 +1,13 @@
+{
+	"production":{
+		"adapter": "pdo_pgsql",
+		"db":{
+			"username": "dbuser",
+			"password": "Cs5NVugDdG9yeQpBP6Ox",
+			"dbname": "soup"
+		}
+	},
+	"development":{
+		"_extends": "production"
+	}
+}

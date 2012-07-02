@@ -1,0 +1,9 @@
+{
+	"production":{
+		"countTimeStart":"00:00:00",
+		"countTimeEnd":"23:59:59",
+		"countDayRange":2,
+		"registCount":10,
+		"getLimit":10
+	}
+}

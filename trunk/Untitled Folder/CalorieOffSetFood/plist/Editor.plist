@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LEAD</key>
+	<string>糖質オフダイエットアプリの製作をサポートしていただいている方々をご紹介致します。</string>
+	<key>TITLE1</key>
+	<string>糖質オフダイエットレシピ開発及びコンテンツ総合監修</string>
+	<key>SUBTITLE1</key>
+	<string>有限会社 和快</string>
+	<key>IMAGE1</key>
+	<string>wakai.jpg</string>
+	<key>TEXT1</key>
+	<string>薬膳の理論に基づいた食育、食養を通じて、幅広い活動を行っています。</string>
+	<key>SECTIONS</key>
+	<array>
+		<dict>
+			<key>BRACE</key>
+			<string>&lt;設立&gt;</string>
+			<key>TEXT</key>
+			<string>2004年4月</string>
+		</dict>
+		<dict>
+			<key>BRACE</key>
+			<string>&lt;事業内容&gt;</string>
+			<key>TEXT</key>
+			<string>薬膳レシピ・メニュー開発、商品開発、レストラン監修、中医学理論及び薬膳理論の指導・監修、出版など</string>
+		</dict>
+		<dict>
+			<key>BRACE</key>
+			<string>&lt;主な実績&gt;</string>
+			<key>TEXT</key>
+			<string>ロート製薬株式会社「福利厚生施設スマートキャンプ」及び「同スマートキャンプ東京内｢旬穀旬菜cafe」薬膳メニュー開発・監修、調理指導、株式会社グループセブ ジャパン「ティファール」製品付属レシピブック レシピ開発・監修、インフォコム株式会社運営携帯サイト「体スッキリオイシイ薬膳」およびiPhone向けアプリ「スープダイエット」「薬膳美鍋」「美白薬膳」「保湿薬膳」「冷え性薬膳」「花粉症に効くレシピ」薬膳レシピ開発・監修など</string>
+		</dict>
+		<dict>
+			<key>BRACE</key>
+			<string>&lt;代表者&gt;</string>
+			<key>TEXT</key>
+			<string>国際薬膳師／日本国際薬膳師会副会長
+堀 実佐子</string>
+		</dict>
+	</array>
+	<key>IMAGE2</key>
+	<string>supervisor_hori.jpg</string>
+	<key>TEXT2</key>
+	<string>1991年より北京中医薬大学日本校第一期生として中医食養学を学ぶ。同校卒業後、国際薬膳師資格取得。
+2005年に中国中医薬管理局より「国際薬膳貢献奨」受賞。</string>
+	<key>BRACE1</key>
+	<string>&lt;メンバー&gt;</string>
+	<key>TEXT3</key>
+	<string>相澤 栄子
+(国際薬膳師･ハーブコーディネーター)
+春日 初恵
+(国際薬膳師･国際中医師･薬剤師)
+木谷 正子
+(国際薬膳師･薬剤師)
+堀 綾希子
+(国際薬膳師)</string>
+	<key>TITLE2</key>
+	<string>薬膳監修</string>
+	<key>SUBTITLE2</key>
+	<string>本草薬膳学院</string>
+	<key>IMAGE3</key>
+	<string>honsou.gif</string>
+	<key>TEXT4</key>
+	<string>北京中医薬大学提携校。中国国家中医薬管理局に属する、第一級学術団である中国薬膳研究会が認める日本で唯一の教育機構です。</string>
+	<key>BRACE2</key>
+	<string>&lt;学院長&gt;</string>
+	<key>TEXT5</key>
+	<string>中医師／日本国際薬膳師会会長
+辰巳 洋（劉 海洋）</string>
+	<key>TITLE3</key>
+	<string>公認</string>
+	<key>SUBTITLE3</key>
+	<string>日本国際薬膳師会</string>
+	<key>IMAGE4</key>
+	<string>nihonkokusaiyakuzen_logo.gif</string>
+	<key>TEXT6</key>
+	<string>国際薬膳師の資格を持った会員から構成され、本格的な薬膳の実践と普及に努め、食からの健康を通じて社会への貢献を目指しています。</string>
+	<key>TITLE4</key>
+	<string>レシピ写真</string>
+	<key>SUBTITLE4</key>
+	<string>久保 明子</string>
+	<key>TITLE5</key>
+	<string>企画・制作</string>
+	<key>SUBTITLE5</key>
+	<string>インフォコム株式会社</string>
+	<key>IMAGE5</key>
+	<string>infocom.gif</string>
+</dict>
+</plist>
