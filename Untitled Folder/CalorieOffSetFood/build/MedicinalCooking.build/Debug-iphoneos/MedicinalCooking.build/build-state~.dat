@@ -1,0 +1,1291 @@
+TMedicinalCooking
+v7
+r0
+t339663386.690510
+cCheck dependencies
+cCpResource build/Debug-iphoneos/MedicinalCooking.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/Info.plist MedicinalCooking-Info.plist
+cCopyPlistFile /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/ConstitutionDiagnosisQuestion.plist plist/ConstitutionDiagnosisQuestion.plist
+cProcessPCH /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch.gch MedicinalCooking_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch.gch MedicinalCooking_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/main.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/MedicinalCookingAppDelegate.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/TopViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/TopViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/ConstitutionDiagnosisViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ConstitutionDiagnosisViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/Utility.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/Utility.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/BookmarkViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/BookmarkViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/OthersTableViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/OthersTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/FoodSearchTableViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/FoodSearchTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/RecipeViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RecipeViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/MedicinalTipsViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalTipsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/PhotoSearchViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/PhotoSearchViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/RankingTableViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/HurryDiagnosisTableViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/HurryDiagnosisTableViewCell.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewCell.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/main.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/MedicinalCooking normal armv6
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/MedicinalCookingAppDelegate.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/TopViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/TopViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/ConstitutionDiagnosisViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ConstitutionDiagnosisViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/Utility.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/Utility.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/BookmarkViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/BookmarkViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/OthersTableViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/OthersTableViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/FoodSearchTableViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/FoodSearchTableViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/RecipeViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RecipeViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/MedicinalTipsViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalTipsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/PhotoSearchViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/PhotoSearchViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/RankingTableViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingTableViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/HurryDiagnosisTableViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/HurryDiagnosisTableViewCell.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewCell.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/MedicinalCooking normal armv7
+cCreateUniversalBinary /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/MedicinalCooking normal "armv6 armv7"
+cGenerateDSYMFile /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app.dSYM /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/MedicinalCooking
+cProcessProductPackaging "/Users/kondoumasato/Library/MobileDevice/Provisioning Profiles/38D28322-E512-42A3-9E58-644521026D6F.mobileprovision" /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/embedded.mobileprovision
+cTouch /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking.xcent
+cCodeSign /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D7401890000000000000110
+t1299448201
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/BookmarkViewController.h
+c000000004E8BE1CB0000000000000121
+t1317790155
+s289
+i<UIKit/UIKit.h>
+i"Utility.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/BookmarkViewController.m
+c000000004E8C178D00000000000005F4
+t1317803917
+s1524
+i"BookmarkViewController.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ConstitutionDiagnosisViewController.h
+c000000004E8E45EE0000000000000169
+t1317946862
+s361
+i<UIKit/UIKit.h>
+i"Utility.h"
+i"HurryDiagnosisTableViewController.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ConstitutionDiagnosisViewController.m
+c000000004E8E45DE0000000000000EB6
+t1317946846
+s3766
+i"ConstitutionDiagnosisViewController.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/DishSearchTableViewController.h
+c000000004E8C0D8E000000000000013E
+t1317801358
+s318
+i<UIKit/UIKit.h>
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/DishSearchTableViewController.m
+c000000004E8C17830000000000001260
+t1317803907
+s4704
+i"DishSearchTableViewController.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/FoodSearchTableViewController.h
+c000000004E8D4CC900000000000001DE
+t1317883081
+s478
+i<UIKit/UIKit.h>
+i"RecipeViewController.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/FoodSearchTableViewController.m
+c000000004E8D4CF600000000000011E0
+t1317883126
+s4576
+i"FoodSearchTableViewController.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewCell.h
+c000000004E8E9F1700000000000001F5
+t1317969687
+s501
+i<UIKit/UIKit.h>
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewCell.m
+c000000004E8EA14F000000000000067C
+t1317970255
+s1660
+i"HurryDiagnosisTableViewCell.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewController.h
+c000000004E8E9E7400000000000001BC
+t1317969524
+s444
+i<UIKit/UIKit.h>
+i"Utility.h"
+i"HurryDiagnosisTableViewCell.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewController.m
+c000000004E8EA2770000000000001E02
+t1317970551
+s7682
+i"HurryDiagnosisTableViewController.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingAppDelegate.h
+c000000004E8D13E10000000000000510
+t1317868513
+s1296
+i<UIKit/UIKit.h>
+i"TopViewController.h"
+i"ConstitutionDiagnosisViewController.h"
+i"BookmarkViewController.h"
+i"MedicinalTipsViewController.h"
+i"OthersTableViewController.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingAppDelegate.m
+c000000004E8D14490000000000001559
+t1317868617
+s5465
+i"MedicinalCookingAppDelegate.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingViewController.h
+c000000004E8AAB3E000000000000011E
+t1317710654
+s286
+i<UIKit/UIKit.h>
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingViewController.m
+c000000004E8AAB3E00000000000005FA
+t1317710654
+s1530
+i"MedicinalCookingViewController.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalTipsViewController.h
+c000000004E8D506E000000000000012B
+t1317884014
+s299
+i<UIKit/UIKit.h>
+i"Utility.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalTipsViewController.m
+c000000004E8D51840000000000000C0D
+t1317884292
+s3085
+i"MedicinalTipsViewController.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/OthersTableViewController.h
+c000000004E8BE7520000000000000153
+t1317791570
+s339
+i<UIKit/UIKit.h>
+i"Utility.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/OthersTableViewController.m
+c000000004E8D2FEE000000000000126A
+t1317875694
+s4714
+i"OthersTableViewController.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/PhotoSearchViewController.h
+c000000004E8D28F80000000000000114
+t1317873912
+s276
+i<UIKit/UIKit.h>
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/PhotoSearchViewController.m
+c000000004E8D2A420000000000000620
+t1317874242
+s1568
+i"PhotoSearchViewController.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingTableViewController.h
+c000000004E8D297F0000000000000138
+t1317874047
+s312
+i<UIKit/UIKit.h>
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingTableViewController.m
+c000000004E8D29A40000000000001213
+t1317874084
+s4627
+i"RankingTableViewController.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingViewController.h
+c000000004E8BE911000000000000011F
+t1317792017
+s287
+i<UIKit/UIKit.h>
+i"Utility.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingViewController.m
+c000000004E8C179300000000000005F3
+t1317803923
+s1523
+i"RankingViewController.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RecipeViewController.h
+c000000004E8CE640000000000000010A
+t1317856832
+s266
+i<UIKit/UIKit.h>
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RecipeViewController.m
+c000000004E8CFC5D0000000000000A30
+t1317862493
+s2608
+i"RecipeViewController.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/TopViewController.h
+c000000004E8D2B050000000000000245
+t1317874437
+s581
+i<UIKit/UIKit.h>
+i"Utility.h"
+i"FoodSearchTableViewController.h"
+i"PhotoSearchViewController.h"
+i"RankingTableViewController.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/TopViewController.m
+c000000004E8E35F50000000000000F3A
+t1317942773
+s3898
+i"TopViewController.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/Utility.h
+c000000004E8BFEC800000000000001C8
+t1317797576
+s456
+i<Foundation/Foundation.h>
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/Utility.m
+c000000004E8BFEBF000000000000029E
+t1317797567
+s670
+i"Utility.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/WWWViewController.h
+c000000004E8B95F40000000000000104
+t1317770740
+s260
+i<UIKit/UIKit.h>
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/WWWViewController.m
+c000000004E8B95F4000000000000063F
+t1317770740
+s1599
+i"WWWViewController.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/XXXViewController.h
+c000000004E8B95FF0000000000000104
+t1317770751
+s260
+i<UIKit/UIKit.h>
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/XXXViewController.m
+c000000004E8B95FF000000000000063F
+t1317770751
+s1599
+i"XXXViewController.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/YYYViewController.h
+c000000004E8B96070000000000000104
+t1317770759
+s260
+i<UIKit/UIKit.h>
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/YYYViewController.m
+c000000004E8B9607000000000000063F
+t1317770759
+s1599
+i"YYYViewController.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ZZZViewController.h
+c000000004E8B960E0000000000000104
+t1317770766
+s260
+i<UIKit/UIKit.h>
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ZZZViewController.m
+c000000004E8B960E000000000000063F
+t1317770766
+s1599
+i"ZZZViewController.h"
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/MedicinalCooking_Prefix.pch
+c000000004E8AAB3E00000000000000C9
+t1317710654
+s201
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app
+t1317970586
+s340
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app.dSYM
+t1317970586
+s102
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/ConstitutionDiagnosisQuestion.plist
+t1317970583
+s2900
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/ConstitutionDiagnosisResult.plist
+t2
+s0
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/Info.plist
+t1317970583
+s819
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/MedicinalCooking
+t1317970586
+s152168
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/PkgInfo
+t1317970583
+s8
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/ResourceRules.plist
+t1317970583
+s485
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/embedded.mobileprovision
+t1317970586
+s33915
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking.xcent
+t1317970586
+s643
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/BookmarkViewController.o
+t1317970584
+s40300
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/ConstitutionDiagnosisViewController.o
+t1317970584
+s44152
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/DishSearchTableViewController.o
+t1317856146
+s47228
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/FoodSearchTableViewController.o
+t1317970585
+s50900
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/HurryDiagnosisTableViewCell.o
+t1317970585
+s44472
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/HurryDiagnosisTableViewController.o
+t1317970585
+s55096
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/MedicinalCooking
+t1317970585
+s74004
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/MedicinalCooking.LinkFileList
+c000000004E8EA2970000000000000924
+t1317970583
+s2340
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/MedicinalCookingAppDelegate.o
+t1317970584
+s64340
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/MedicinalCookingViewController.o
+t1317771545
+s37980
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/MedicinalTipsViewController.o
+t1317970585
+s41744
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/OthersTableViewController.o
+t1317970585
+s47236
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/PhotoSearchViewController.o
+t1317970585
+s40448
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/RankingTableViewController.o
+t1317970585
+s46860
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/RankingViewController.o
+t1317856145
+s40272
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/RecipeViewController.o
+t1317970585
+s43460
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/TopViewController.o
+t1317970584
+s49636
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/Utility.o
+t1317970584
+s38368
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/WWWViewController.o
+t1317771545
+s37856
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/XXXViewController.o
+t1317771545
+s37856
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/YYYViewController.o
+t1317771545
+s37856
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/ZZZViewController.o
+t1317771545
+s37856
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/main.o
+t1317970584
+s6680
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/BookmarkViewController.o
+t1317970585
+s40232
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/ConstitutionDiagnosisViewController.o
+t1317970585
+s43992
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/DishSearchTableViewController.o
+t1317856147
+s46976
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/FoodSearchTableViewController.o
+t1317970585
+s50616
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/HurryDiagnosisTableViewCell.o
+t1317970586
+s44260
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/HurryDiagnosisTableViewController.o
+t1317970586
+s54640
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/MedicinalCooking
+t1317970586
+s70248
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/MedicinalCooking.LinkFileList
+c000000004E8EA2970000000000000924
+t1317970583
+s2340
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/MedicinalCookingAppDelegate.o
+t1317970585
+s64312
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/MedicinalCookingViewController.o
+t1317771545
+s37956
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/MedicinalTipsViewController.o
+t1317970586
+s41596
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/OthersTableViewController.o
+t1317970585
+s46980
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/PhotoSearchViewController.o
+t1317970586
+s40384
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/RankingTableViewController.o
+t1317970586
+s46612
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/RankingViewController.o
+t1317856146
+s40204
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/RecipeViewController.o
+t1317970585
+s43248
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/TopViewController.o
+t1317970585
+s49472
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/Utility.o
+t1317970585
+s38284
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/WWWViewController.o
+t1317771546
+s37828
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/XXXViewController.o
+t1317771546
+s37828
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/YYYViewController.o
+t1317771546
+s37828
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/ZZZViewController.o
+t1317771546
+s37828
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/main.o
+t1317970585
+s6652
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/main.m
+c000000004E8AAD4600000000000001A2
+t1317711174
+s418
+i<UIKit/UIKit.h>
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/plist/ConstitutionDiagnosisQuestion.plist
+c000000004E8E9BF30000000000003D01
+t1317968883
+s15617
+
+N/Users/kondoumasato/Desktop/Project/MedicinalCooking/plist/ConstitutionDiagnosisResult.plist
+c000000004E8BC8080000000000000354
+t1317783560
+s852
+
+N/Users/kondoumasato/Library/MobileDevice/Provisioning Profiles/38D28322-E512-42A3-9E58-644521026D6F.mobileprovision
+c000000004E72EABE000000000000847B
+t1316154046
+s33915
+
+N/var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch.gch
+t1317970584
+s10647452
+
+N/var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch.gch
+t1317970584
+s10184604
+
+NMedicinalCooking-Info.plist
+c000000004E8BC8080000000000000354
+t1317783560
+s852
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies339663383#339663383#0(0"0(0#1#0"8744363616#0"0#
+
+CCodeSign /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app
+s339663386.498543
+e339663386.690296
+r1
+xCodeSign
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app
+lSLF07#2@50"CodeSign build/Debug-iphoneos/MedicinalCooking.app339663386#339663386#0(0"0(0#0#94"/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app8743242176#750"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: 雅人 近藤 (7726A3253S)" --resource-rules=/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/ResourceRules.plist --entitlements /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking.xcent /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/BookmarkViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/BookmarkViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339663384.837101
+e339663384.944593
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/BookmarkViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/BookmarkViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/BookmarkViewController.m339663384#339663384#0(0"0(0#0#85"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/BookmarkViewController.m8721141472#2102"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv6 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/BookmarkViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/BookmarkViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/ConstitutionDiagnosisViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ConstitutionDiagnosisViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339663384.739202
+e339663384.836990
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/ConstitutionDiagnosisViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ConstitutionDiagnosisViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ConstitutionDiagnosisViewController.m339663384#339663384#0(0"0(0#0#98"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ConstitutionDiagnosisViewController.m8724808000#2128"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv6 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ConstitutionDiagnosisViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/ConstitutionDiagnosisViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/DishSearchTableViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/DishSearchTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339548946.103622
+e339548946.199648
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/DishSearchTableViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/DishSearchTableViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/DishSearchTableViewController.m339548946#339548946#0(0"0(0#0#92"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/DishSearchTableViewController.m8622396704#2116"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv6 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/DishSearchTableViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/DishSearchTableViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/FoodSearchTableViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/FoodSearchTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339663384.944812
+e339663385.053682
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/FoodSearchTableViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/FoodSearchTableViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/FoodSearchTableViewController.m339663384#339663385#0(0"0(0#0#92"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/FoodSearchTableViewController.m8723081664#2116"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv6 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/FoodSearchTableViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/FoodSearchTableViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/HurryDiagnosisTableViewCell.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewCell.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339663385.277296
+e339663385.368674
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/HurryDiagnosisTableViewCell.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewCell.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewCell.m339663385#339663385#0(0"0(0#0#90"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewCell.m8739566208#2112"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv6 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewCell.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/HurryDiagnosisTableViewCell.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/HurryDiagnosisTableViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339663385.203709
+e339663385.365405
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/HurryDiagnosisTableViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewController.m339663385#339663385#0(0"0(0#0#96"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewController.m8742086080#2124"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv6 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/HurryDiagnosisTableViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/MedicinalCookingAppDelegate.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339663384.572165
+e339663384.739022
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/MedicinalCookingAppDelegate.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingAppDelegate.m339663384#339663384#0(0"0(0#0#90"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingAppDelegate.m8743673568#2112"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv6 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingAppDelegate.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/MedicinalCookingAppDelegate.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/MedicinalCookingViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339464345.594608
+e339464345.724719
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/MedicinalCookingViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingViewController.m339464345#339464345#0(0"0(0#0#93"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingViewController.m3415820241436897280#2118"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv6 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/MedicinalCookingViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/MedicinalTipsViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalTipsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339663385.053878
+e339663385.165785
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/MedicinalTipsViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalTipsViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalTipsViewController.m339663385#339663385#0(0"0(0#0#90"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalTipsViewController.m8736880608#2112"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv6 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalTipsViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/MedicinalTipsViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/OthersTableViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/OthersTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339663384.880600
+e339663385.032303
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/OthersTableViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/OthersTableViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/OthersTableViewController.m339663384#339663385#0(0"0(0#0#88"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/OthersTableViewController.m8741654208#2108"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv6 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/OthersTableViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/OthersTableViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/PhotoSearchViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/PhotoSearchViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339663385.122462
+e339663385.203558
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/PhotoSearchViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/PhotoSearchViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/PhotoSearchViewController.m339663385#339663385#0(0"0(0#0#88"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/PhotoSearchViewController.m8726608800#2108"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv6 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/PhotoSearchViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/PhotoSearchViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/RankingTableViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339663385.165893
+e339663385.277122
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/RankingTableViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingTableViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingTableViewController.m339663385#339663385#0(0"0(0#0#89"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingTableViewController.m8740259072#2110"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv6 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingTableViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/RankingTableViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/RankingViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339548945.929947
+e339548946.017662
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/RankingViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingViewController.m339548945#339548946#0(0"0(0#0#84"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingViewController.m8615048128#2100"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv6 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/RankingViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/RecipeViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RecipeViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339663385.032407
+e339663385.122362
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/RecipeViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RecipeViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RecipeViewController.m339663385#339663385#0(0"0(0#0#83"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RecipeViewController.m8744752032#2098"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv6 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RecipeViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/RecipeViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/TopViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/TopViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339663384.650689
+e339663384.812721
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/TopViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/TopViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/TopViewController.m339663384#339663384#0(0"0(0#0#80"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/TopViewController.m8742803904#2092"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv6 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/TopViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/TopViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/Utility.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/Utility.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339663384.813120
+e339663384.880495
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/Utility.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/Utility.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/Utility.m339663384#339663384#0(0"0(0#0#70"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/Utility.m8727515936#2072"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv6 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/Utility.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/Utility.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/WWWViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/WWWViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339464345.595805
+e339464345.668870
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/WWWViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/WWWViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/WWWViewController.m339464345#339464345#0(0"0(0#0#80"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/WWWViewController.m8620146688#2092"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv6 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/WWWViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/WWWViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/XXXViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/XXXViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339464345.668972
+e339464345.802885
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/XXXViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/XXXViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/XXXViewController.m339464345#339464345#0(0"0(0#0#80"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/XXXViewController.m8623364384#2092"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv6 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/XXXViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/XXXViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/YYYViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/YYYViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339464345.724876
+e339464345.788404
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/YYYViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/YYYViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/YYYViewController.m339464345#339464345#0(0"0(0#0#80"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/YYYViewController.m8624637152#2092"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv6 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/YYYViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/YYYViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/ZZZViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ZZZViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339464345.788508
+e339464345.863889
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/ZZZViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ZZZViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ZZZViewController.m339464345#339464345#0(0"0(0#0#80"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ZZZViewController.m8624212352#2092"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv6 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ZZZViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/ZZZViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/main.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339663384.554951
+e339663384.650575
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/main.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/main.m339663384#339663384#0(0"0(0#0#59"/Users/kondoumasato/Desktop/Project/MedicinalCooking/main.m8746313280#2058"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv6 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/main.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/BookmarkViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/BookmarkViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339663385.723932
+e339663385.814251
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/BookmarkViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/BookmarkViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/BookmarkViewController.m339663385#339663385#0(0"0(0#0#85"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/BookmarkViewController.m8740595392#2102"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv7 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/BookmarkViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/BookmarkViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/ConstitutionDiagnosisViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ConstitutionDiagnosisViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339663385.592119
+e339663385.723824
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/ConstitutionDiagnosisViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ConstitutionDiagnosisViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ConstitutionDiagnosisViewController.m339663385#339663385#0(0"0(0#0#98"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ConstitutionDiagnosisViewController.m8745016224#2128"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv7 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ConstitutionDiagnosisViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/ConstitutionDiagnosisViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/DishSearchTableViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/DishSearchTableViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339548946.944633
+e339548947.056121
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/DishSearchTableViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/DishSearchTableViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/DishSearchTableViewController.m339548946#339548947#0(0"0(0#0#92"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/DishSearchTableViewController.m8603299104#2116"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv7 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/DishSearchTableViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/DishSearchTableViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/FoodSearchTableViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/FoodSearchTableViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339663385.814377
+e339663385.962386
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/FoodSearchTableViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/FoodSearchTableViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/FoodSearchTableViewController.m339663385#339663385#0(0"0(0#0#92"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/FoodSearchTableViewController.m8746231072#2116"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv7 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/FoodSearchTableViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/FoodSearchTableViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/HurryDiagnosisTableViewCell.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewCell.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339663386.198124
+e339663386.273561
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/HurryDiagnosisTableViewCell.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewCell.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewCell.m339663386#339663386#0(0"0(0#0#90"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewCell.m8723885984#2112"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv7 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewCell.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/HurryDiagnosisTableViewCell.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/HurryDiagnosisTableViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339663386.081281
+e339663386.201846
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/HurryDiagnosisTableViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewController.m339663386#339663386#0(0"0(0#0#96"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewController.m8726512800#2124"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv7 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/HurryDiagnosisTableViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/HurryDiagnosisTableViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/MedicinalCookingAppDelegate.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339663385.419343
+e339663385.592016
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/MedicinalCookingAppDelegate.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingAppDelegate.m339663385#339663385#0(0"0(0#0#90"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingAppDelegate.m8741941440#2112"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv7 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingAppDelegate.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/MedicinalCookingAppDelegate.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/MedicinalCookingViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339464345.892865
+e339464345.973854
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/MedicinalCookingViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingViewController.m339464345#339464345#0(0"0(0#0#93"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingViewController.m8624842880#2118"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv7 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalCookingViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/MedicinalCookingViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/MedicinalTipsViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalTipsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339663385.961034
+e339663386.044393
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/MedicinalTipsViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalTipsViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalTipsViewController.m339663385#339663386#0(0"0(0#0#90"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalTipsViewController.m8746079936#2112"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv7 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/MedicinalTipsViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/MedicinalTipsViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/OthersTableViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/OthersTableViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339663385.726978
+e339663385.840902
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/OthersTableViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/OthersTableViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/OthersTableViewController.m339663385#339663385#0(0"0(0#0#88"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/OthersTableViewController.m8739936288#2108"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv7 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/OthersTableViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/OthersTableViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/PhotoSearchViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/PhotoSearchViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339663385.962471
+e339663386.081180
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/PhotoSearchViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/PhotoSearchViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/PhotoSearchViewController.m339663385#339663386#0(0"0(0#0#88"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/PhotoSearchViewController.m8743625856#2108"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv7 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/PhotoSearchViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/PhotoSearchViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/RankingTableViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingTableViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339663386.044508
+e339663386.197950
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/RankingTableViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingTableViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingTableViewController.m339663386#339663386#0(0"0(0#0#89"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingTableViewController.m8741453696#2110"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv7 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingTableViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/RankingTableViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/RankingViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339548946.756397
+e339548946.845601
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/RankingViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingViewController.m339548946#339548946#0(0"0(0#0#84"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingViewController.m8599763232#2100"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv7 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RankingViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/RankingViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/RecipeViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RecipeViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339663385.841011
+e339663385.960936
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/RecipeViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RecipeViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RecipeViewController.m339663385#339663385#0(0"0(0#0#83"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RecipeViewController.m8744801280#2098"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv7 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/RecipeViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/RecipeViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/TopViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/TopViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339663385.476116
+e339663385.619895
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/TopViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/TopViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/TopViewController.m339663385#339663385#0(0"0(0#0#80"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/TopViewController.m8746231584#2092"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv7 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/TopViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/TopViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/Utility.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/Utility.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339663385.620001
+e339663385.726882
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/Utility.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/Utility.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/Utility.m339663385#339663385#0(0"0(0#0#70"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/Utility.m8743150656#2072"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv7 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/Utility.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/Utility.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/WWWViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/WWWViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339464345.952627
+e339464346.063239
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/WWWViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/WWWViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/WWWViewController.m339464345#339464346#0(0"0(0#0#80"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/WWWViewController.m8624266400#2092"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv7 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/WWWViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/WWWViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/XXXViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/XXXViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339464345.973957
+e339464346.066793
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/XXXViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/XXXViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/XXXViewController.m339464345#339464346#0(0"0(0#0#80"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/XXXViewController.m8623991168#2092"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv7 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/XXXViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/XXXViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/YYYViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/YYYViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339464346.063354
+e339464346.145425
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/YYYViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/YYYViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/YYYViewController.m339464346#339464346#0(0"0(0#0#80"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/YYYViewController.m8625014336#2092"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv7 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/YYYViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/YYYViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/ZZZViewController.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ZZZViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339464346.066898
+e339464346.144905
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/ZZZViewController.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ZZZViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ZZZViewController.m339464346#339464346#0(0"0(0#0#80"/Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ZZZViewController.m8624626528#2092"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv7 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/Classes/ZZZViewController.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/ZZZViewController.o0#
+
+CCompileC build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/main.o /Users/kondoumasato/Desktop/Project/MedicinalCooking/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339663385.365525
+e339663385.475980
+r1
+xCompileC
+xbuild/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/main.o
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/kondoumasato/Desktop/Project/MedicinalCooking/main.m339663385#339663385#0(0"0(0#0#59"/Users/kondoumasato/Desktop/Project/MedicinalCooking/main.m8743535008#2058"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv7 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -include /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/main.m -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/main.o0#
+
+CCopyPlistFile /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/ConstitutionDiagnosisQuestion.plist plist/ConstitutionDiagnosisQuestion.plist
+s339663383.464336
+e339663383.490225
+r1
+xCopyPlistFile
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/ConstitutionDiagnosisQuestion.plist
+xplist/ConstitutionDiagnosisQuestion.plist
+lSLF07#2@46"Copy plist/ConstitutionDiagnosisQuestion.plist339663383#339663383#0(0"0(0#0#94"/Users/kondoumasato/Desktop/Project/MedicinalCooking/plist/ConstitutionDiagnosisQuestion.plist32370073300828272#439"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 plist/ConstitutionDiagnosisQuestion.plist --outdir /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app0#
+
+CCopyPlistFile /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/ConstitutionDiagnosisResult.plist plist/ConstitutionDiagnosisResult.plist
+r0
+
+CCpResource build/Debug-iphoneos/MedicinalCooking.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s339663383.427479
+e339663383.464192
+r1
+xCpResource
+xbuild/Debug-iphoneos/MedicinalCooking.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist339663383#339663383#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist8727502336#531"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app0#
+
+CCreateUniversalBinary /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/MedicinalCooking normal "armv6 armv7"
+s339663386.309788
+e339663386.313139
+r1
+xCreateUniversalBinary
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/MedicinalCooking
+xnormal
+xarmv6 armv7
+lSLF07#2@101"CreateUniversalBinary build/Debug-iphoneos/MedicinalCooking.app/MedicinalCooking normal "armv6 armv7"339663386#339663386#0(0"0(0#0#64"/Users/kondoumasato/Desktop/Project/MedicinalCooking/armv6 armv78736562496#646"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/MedicinalCooking /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/MedicinalCooking -output /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/MedicinalCooking0#
+
+CGenerateDSYMFile /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app.dSYM /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/MedicinalCooking
+s339663386.313245
+e339663386.382983
+r1
+xGenerateDSYMFile
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app.dSYM
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/MedicinalCooking
+lSLF07#2@122"GenerateDSYMFile build/Debug-iphoneos/MedicinalCooking.app.dSYM build/Debug-iphoneos/MedicinalCooking.app/MedicinalCooking339663386#339663386#0(0"0(0#0#111"/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/MedicinalCooking8734070080#431"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/MedicinalCooking -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app.dSYM0#
+
+CLd /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/MedicinalCooking normal armv6
+s339663385.368770
+e339663385.419215
+r1
+xLd
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/MedicinalCooking
+xnormal
+xarmv6
+lSLF07#2@162"Link /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/MedicinalCooking339663385#339663385#0(0"0(0#0#0"8740257632#983"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -filelist /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/MedicinalCooking.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv6/MedicinalCooking0#
+
+CLd /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/MedicinalCooking normal armv7
+s339663386.273654
+e339663386.309608
+r1
+xLd
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/MedicinalCooking
+xnormal
+xarmv7
+lSLF07#2@162"Link /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/MedicinalCooking339663386#339663386#0(0"0(0#0#0"8736124960#983"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -filelist /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/MedicinalCooking.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/Objects-normal/armv7/MedicinalCooking0#
+
+CProcessInfoPlistFile /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/Info.plist MedicinalCooking-Info.plist
+s339663383.428971
+e339663383.446818
+r1
+xProcessInfoPlistFile
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/Info.plist
+xMedicinalCooking-Info.plist
+lSLF07#2@35"Process MedicinalCooking-Info.plist339663383#339663383#0(0"0(0#0#80"/Users/kondoumasato/Desktop/Project/MedicinalCooking/MedicinalCooking-Info.plist8743434816#654"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MedicinalCooking-Info.plist -genpkginfo /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/ResourceRules.plist -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/Info.plist0#
+
+CProcessPCH /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch.gch MedicinalCooking_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339663383.491321
+e339663384.554739
+r1
+xProcessPCH
+x/var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch.gch
+xMedicinalCooking_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile MedicinalCooking_Prefix.pch339663383#339663384#0(0"0(0#0#80"/Users/kondoumasato/Desktop/Project/MedicinalCooking/MedicinalCooking_Prefix.pch8744795552#1933"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv7 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/MedicinalCooking_Prefix.pch -o /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-eitatwfqbsdclwbyplzyseyyocti/MedicinalCooking_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch.gch MedicinalCooking_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339663383.490381
+e339663384.529397
+r1
+xProcessPCH
+x/var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch.gch
+xMedicinalCooking_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile MedicinalCooking_Prefix.pch339663383#339663384#0(0"0(0#0#80"/Users/kondoumasato/Desktop/Project/MedicinalCooking/MedicinalCooking_Prefix.pch8745431808#1933"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-generated-files.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-own-target-headers.hmap -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-all-target-headers.hmap -iquote /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking-project-headers.hmap -F/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/include -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources/armv6 -I/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/DerivedSources -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/MedicinalCooking_Prefix.pch -o /var/folders/Ub/Ubu9ewqNH+mq5gLoUeDJyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedicinalCooking_Prefix-ezhdizxsxqgbejepmmvqekohqanx/MedicinalCooking_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/kondoumasato/Library/MobileDevice/Provisioning Profiles/38D28322-E512-42A3-9E58-644521026D6F.mobileprovision" /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/embedded.mobileprovision
+s339663386.383093
+e339663386.482126
+r1
+xProcessProductPackaging
+x/Users/kondoumasato/Library/MobileDevice/Provisioning Profiles/38D28322-E512-42A3-9E58-644521026D6F.mobileprovision
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/embedded.mobileprovision
+lSLF07#2@208"ProcessProductPackaging "/Users/kondoumasato/Library/MobileDevice/Provisioning Profiles/38D28322-E512-42A3-9E58-644521026D6F.mobileprovision" build/Debug-iphoneos/MedicinalCooking.app/embedded.mobileprovision339663386#339663386#0(0"0(0#0#119"/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/embedded.mobileprovision8727273408#467"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/kondoumasato/Library/MobileDevice/Provisioning Profiles/38D28322-E512-42A3-9E58-644521026D6F.mobileprovision" -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking.xcent
+s339663386.488196
+e339663386.498339
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking.xcent
+lSLF07#2@202"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking.xcent339663386#339663386#0(0"0(0#0#142"/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking.xcent8743739488#487"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/MedicinalCooking.build/Debug-iphoneos/MedicinalCooking.build/MedicinalCooking.xcent0#
+
+CTouch /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app
+s339663386.482198
+e339663386.487854
+r1
+xTouch
+x/Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app
+lSLF07#2@100"Touch /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app339663386#339663386#0(0"0(0#0#0"8746080224#301"    cd /Users/kondoumasato/Desktop/Project/MedicinalCooking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/kondoumasato/Desktop/Project/MedicinalCooking/build/Debug-iphoneos/MedicinalCooking.app0#
+

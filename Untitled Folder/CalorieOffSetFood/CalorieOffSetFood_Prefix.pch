@@ -1,0 +1,372 @@
+//
+// Prefix header for all source files of the 'MedicinalCarbOff' target in the 'MedicinalCarbOff' project
+//
+#import "MCDebug.h"
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import <CoreData/CoreData.h>
+
+// 画像ファイル名
+#define kTopBackgroundImageName @"top_bg"   // トップ画面
+#define kTopBtn1Image @"btn_top1"  // トップボタン1
+#define kTopBtn2Image @"btn_top2"  // トップボタン2
+#define kTopBtn3Image @"btn_top3"  // トップボタン3
+#define kTopIconImage1 @"bg_image1"   // 検索1のアイコン
+#define kTopIconImage2 @"bg_image2"   // 検索2のアイコン
+#define kTopIconImage3 @"bg_image3"   // 検索3のアイコン
+#define kTopIconImage4 @"bg_image4"   // 検索4のアイコン
+#define kTopIconWord1 @"word1"        // 検索1のタイトル
+#define kTopIconWord2 @"word2"        // 検索2のタイトル
+#define kTopIconWord3 @"word3"        // 検索3のタイトル
+#define kTopIconWord4 @"word4"        // 検索4のタイトル
+#define kTopArrowImageName @"bg_arrow"   // 矢印
+#define kTopLineDotImageName @"bg_dotline"   // 矢印
+#define kTopIconTopImageName @"top_image"   // ボトムのアイコン
+#define kNavigationBarImageName @"navbar"        // ナビゲーションバー
+#define kBackButtonImageName @"icon_back"        // 戻るボタン
+#define kSelectButtonOffImageName @"btn_checkbox1"   // スイッチオフ（体質診断）
+#define kSelectButtonOnImageName @"btn_checkbox2"     // スイッチオン（体質診断）
+#define kSearchTabAllImageName @"bar_search1"  // ALLタブ選択（食材から探す）
+#define kSearchTabVegeImageName @"bar_search2"// 野菜タブ選択（食材から探す）
+#define kSearchTabMeatImageName @"bar_search3"// 肉・魚・野菜タブ選択（食材から探す）
+#define kSearchTabHerbImageName @"bar_search4"// 生薬タブ選択（食材から探す）
+#define kSearchTabBodyTypeAImageName @"bar_taishistubetsu_kensaku1"
+#define kSearchTabBodyTypeBImageName @"bar_taishistubetsu_kensaku2"
+#define kBodyTypeStartBtnImageName @"btn_taishishitsu_shindan"
+#define kBodyTypeKachiButtonImageName @"btn_kachikachi_recipe"
+#define kBodyTypePuyoButtonImageName @"btn_puyopuyo_recipe"
+#define kCellKachi1ImageName @"btn_kaisetsu_kachikachi1"
+#define kCellKachi2ImageName @"btn_kaisetsu_kachikachi2"
+#define kCellPuyo1ImageName @"btn_kaisetsu_puyopuyo1"
+#define kCellPuyo2ImageName @"btn_kaisetsu_puyopuyo2"
+#define kTimeIconImageName @"icon_clock"      // 調理時間アイコン
+#define kCostIconImageName @"icon_cost" // 費用アイコン
+#define kCalorieIconImageName @"icon_calorie" // カロリーアイコン
+#define kCarbIconImageName @"icon_carbs" // 糖質量アイコン
+#define kTabBarIconBookmarkImageName @"tabbar_clip"     // タブバーアイコン・ブックマーク
+#define kTabBarIconRankingImageName @"tabbar_ranking"   // タブバーアイコン・ランキング
+#define kTabBarIconMedicinalTipsImageName @"tabbar_tips"// タブバーアイコン・薬膳TIPS
+#define kTabBarIconTimerImageName @"tabbar_timer"       // タブバーアイコン・タイマー
+#define kSectionBarImageName @"category_bar"            // セクションバー
+#define kRecipeUpperTabButtonPhotoImageName @"bar_recipe2"        // 個別レシピ上部タブボタン写真
+#define kRecipeUpperTabButtonHowToCookImageName @"bar_recipe1"    // 個別レシピ上部タブボタン作り方
+#define kBookmarkButtonOffImageName @"btn_clipoff" // ブックマークボタンオフ
+#define kBookmarkButtonOnImageName @"btn_clipon"   // ブックマークボタンオン
+#define kTimerButtonImageName @"btn_timer"   // タイマーボタン
+#define kTopHeaderImageName @"navbar"               // トップ画面のヘッダ画像
+#define kNavigationBarSwitchImageName @"icon_switch"   // 切り替えアイコン to List
+#define kNavigationBarSwitch2ImageName @"icon_switch2" // 切り替えアイコン to Grid
+#define kNavigationBarShareImageName @"icon_share"   // シェアアイコン
+#define kExpandIconImageName @"icon_fullscreen"   // 拡大アイコン
+#define kTopArrowImageName @"bg_arrow"   // 矢印
+#define kArrowImageName @"btn_arrow"   // 矢印
+#define kIconLeftArrowImageName @"icon_leftarrow"   //左向きの矢印
+#define kIconRightArrowImageName @"icon_rightarrow"   //右向きの矢印
+#define kLineDotImageName @"line_dot" // 点線
+#define kNextButtonImageName @"btn_next" // 次へボタン
+#define kBgWoodImageName @"bg_wood" // 木目背景
+#define kGradientImageName @"gradient" // Gradient
+#define kTimerBackgroundImageName @"bg_timer" // タイマーの背景
+#define kTimerStartButtonImageName @"btn_start"   // タイマーの開始ボタン
+#define kTimerStopButtonImageName @"btn_stop"   // タイマーの中止ボタン
+#define kTimerResetButtonImageName @"btn_reset"   // タイマーのリセットボタン
+#define kTimerCancelButtonImageName @"btn_cancel"   // タイマーのキャンセルボタン
+#define kTimerPlusTenMinButtonImageName @"btn_timer_1"   // タイマーの10分たすボタン
+#define kTimerPlusOneMinButtonImageName @"btn_timer_2"   // タイマーの1分たすボタン
+#define kTimerPlusTenSecButtonImageName @"btn_timer_3"   // タイマーの10秒たすボタン
+#define kTimerClockIconImageName @"icon_chalkboard"   // タイマーの時計アイコン
+#define kPhotoShadowImageName @"photo_shadow" // 写真の影
+#define kRankingBadgeImageName @"icon_ranking" // ランキングバッジ
+#define kNavigationBarTitleOshieteName @"薬膳コラム"                  // 薬膳コラム
+#define kNavigationBarTitleShokuzaijitenName @"食材辞典"             // 食材辞典
+#define kNavigationBarTitleYakuzenjitenName @"薬膳辞典"              // 薬膳辞典
+#define kNavigationBarTitleAppIntroName @"薬膳アプリシリーズ"          // 薬膳辞典
+#define kNavigationBarTitleCarbCountName @"糖質量一覧表"              // 糖質量一覧表
+#define kNavigationBarTitleSlideshowName @"スライドショー"            // スライドショー
+#define kNavigationBarTitleGozenName @"ご膳"                        // ご膳
+#define kNavigationBarTitleAboutName @"アプリInformation"            // 薬膳レシピについて
+#define kNavigationBarTitleKanshushaName @"監修者紹介"                // 監修者紹介
+#define kNavigationBarTitleOkiniiriName @"お気に入り"                 // お気に入り
+#define kNavigationBarTitleRankingName @"ランキング"                  // ランキング
+#define kNavigationBarTitleRecipeName @"レシピ"                      // レシピ
+#define kNavigationBarTitleShashinName @"写真検索"                   // 写真から探す
+#define kNavigationBarTitleShokuzaiName @"食材検索"                  // 食材から探す
+#define kNavigationBarTitleCarbName @"体質別検索"                    // 食材から探す
+#define kNavigationBarTitleSetFoodName @"定食検索"                   // 定食から探す
+#define kNavigationBarTitleSetFoodDetailName @"定食"                   // 定食詳細
+#define kNavigationBarTitleSeparateRecipeName @"単品検索"                   // 単品から探す
+#define kNavigationBarTitleTaishituName @"体質診断"                  // 体質診断
+#define kNavigationBarTitleTipsName @"薬膳手帖"                      // 薬膳TIPS
+#define kNavigationBarTitleKakutaishitsuName @"それぞれの体質について"  // 各体質について
+#define kNavigationBarTitleShindankekkaName @"診断結果"              // 診断結果
+#define kNavigationBarTitleRecipeStoreName @"レシピストア"            // レシピストア
+#define kSNSButtonDoneImageName @"btn_kanryou"                     // SNS完了ボタン
+#define kSNSButtonShareImageName @"btn_toukou"                     // SNS投稿ボタン
+#define kSNSFrameImageName @"frame"                                // SNSテキストボックス
+#define kSNSNavigationBarTitleAccountSettings @"共有アカウント設定"    // SNSアカウント設定
+#define kSNSNavigationBarTitleFacebook @"Facebook"                 // SNSFacebook
+#define kSNSNavigationBarTitleTwitter @"Twitter"                   // SNSTwitter
+#define kNavigationBarTitleTaishitsumei @"nav_bar_taishitsumei"    // 体質名
+
+// レシピストア
+#define kStoreNewBadgeImageName @"bg_new"                              // 新バッジ
+#define kStoreAlreadyPurchasedButtonImageName @"btn_already_purchased" // 購入済み
+#define kStorePriceButtonImageName @"btn_price"                        // 課金
+#define kStoreTabBarIconImageName @"tabbar_recipe_shop"                // レシピストアタブバー
+
+#define kBodyTypeA 0
+#define kBodyTypeB 1
+
+// テキスト
+#define kConstitutionDiagnosisMessageSelectYourStatus @" 当てはまるものをすべて選んでください"
+
+
+// ランキングサーバ
+#if MCDEBUG
+
+#define kRankingServerBaseURL  @"http://ec2-176-32-72-70.ap-northeast-1.compute.amazonaws.com" // テストサーバーのベースURL
+//#define kRankingServerBaseURL  @"http://49.212.112.125"                                         // 本番サーバーのベースURL
+#define kRankingServerPassword @"test_flag=1&token=725c16NzRk52bLR1fOMg"
+//#define kRankingServerPassword @"token=725c16NzRk52bLR1fOMg"
+
+#else
+
+#define kRankingServerBaseURL  @"http://49.212.112.125"                                         // 本番サーバーのベースURL
+#define kRankingServerPassword @"token=725c16NzRk52bLR1fOMg"
+
+#endif
+
+
+#define kRankingServerGetRecipeBinary @"/toshitsu_addon/api/message-to-app/get-test-image-data"    // テスト画像を返す
+#define kRankingServerAddHistory      @"/toshitsu_addon/api/ranking/add-recipe-view-history"       // レシピの拝見数をサーバーに送る
+#define kRankingServerGetRanking      @"/toshitsu_addon/api/ranking/get-recipe-view-ranking"       // ランキングを返す
+#define kRankingServerGetBanner       @"/toshitsu/api/image/get-info-banner"                       // バナー広告を返す
+//#define kRankingServerGetBanner       @"/past/api/image/get-info-banner"                           // バナー広告を返す
+#define kRankingServerNewProductID    @"/toshitsu_addon/api/addon-recipe/get-new-product-id"       // 新しいアドオンプロダクトのIDを返す
+#define kRankingServerProductList     @"/toshitsu_addon/api/addon-recipe/get-product-list"         // プロダクト一覧情報を返す
+#define kRankingServerImage           @"/toshitsu_addon/api/addon-recipe/get-image"                // 画像を返す	
+#define kRankingServerProductRecipe   @"/toshitsu_addon/api/addon-recipe/get-product-recipe"       // プロダクトのレシピ情報を返す
+#define kRankingServerProductRanking  @"/toshitsu_addon/api/addon-recipe/get-ranking-recipe-data"  // ランキング用レシピ情報を返す
+#define kRankingServerProductRelation @"/toshitsu_addon/api/addon-recipe/get-relation-recipe-info" // 関連レシピに関する情報を返す
+#define kRankingServerProductDetail   @"/toshitsu_addon/api/addon-recipe/get-product-info"         // プロダクト詳細ページ情報を返す
+
+
+// 色
+#define kColorRecipeName [UIColor colorWithRed:0.184f green:0.184f blue:0.184f alpha:1.0f]
+#define kColorRedTitle [UIColor redColor]
+#define kColorRedNavigationTitle [UIColor redColor]
+#define kColorGrayText [UIColor colorWithRed:0.6f green:0.6f blue:0.6f alpha:1.0f]
+#define kColorOrangeText [UIColor orangeColor]
+#define kColorCyanText [UIColor colorWithRed:0.122f green:0.549f blue:0.561f alpha:1.0f]
+#define kColorRecipeGreyText [UIColor colorWithRed:0.415f green:0.415f blue:0.415f alpha:1.0f]
+#define kTableSeparatorColor [UIColor colorWithRed:0.8f green:0.8f blue:0.8f alpha:1.0f]
+#define kHowToCookSectionFontColor [UIColor redColor]
+#define kHowToCookSubSectionFontColor [UIColor colorWithRed:0.415f green:0.415f blue:0.415f alpha:1.0f]
+#define kConstitutionDiagnosisMessageFontColor [UIColor redColor]
+#define kConstitutionDiagnosisSubTitleFontColor [UIColor colorWithRed:0.988f green:0.129f blue:0.310f alpha:1.0f]
+#define kMedicinalCarbOffColumnSubTitleFontColor [UIColor redColor]
+
+
+// レシピ数
+#define kRecipeCount 55
+#define kRecipePreviewCount 5
+
+// ブックマークボタンの状態
+#define kBookmarkButtonTagOff 0
+#define kBookmarkButtonTagOn 1
+
+// 写真／一覧切り替えボタンの状態（写真から探す画面）
+#define kChangeButtonTagToList 0
+#define kChangeButtonTagToGrid 1
+
+// 写真の拡大縮小状態
+#define kPhotoScaleTagNormal 0
+#define kPhotoScaleTagExpand 1
+
+// 検索タブの状態
+#define kSearchTabCategoryAll 0
+#define kSearchTabCategoryVege 1
+#define kSearchTabCategoryMeat 2
+#define kSearchTabCategoryHerb 3
+
+// 個別レシピ上部タブの状態
+#define kRecipeUpperTabPhoto 0
+#define kRecipeUpperTabHowToCook 1
+
+// Addon変数
+#define kServerProductIdKey              @"serverProductIdKey"
+#define kServerRecipeIdKey               @"serverRecipeIdKey"
+#define kServerProductCountKey           @"productCount"
+#define kDBDownloadDateKey               @"downloadDateInserted"
+#define kDBProductIdKey                  @"productIdInserted"
+#define kDBIngredientFoodNameFuriganaKey @"ingredientFoodNameFuriganaInserted"
+#define kDBRecipeCostKey                 @"recipeCostInserted"
+#define kDBRecipeCostDataKey             @"recipeCostDataAdded"
+#define kDBFoodCategoryDeleteKey         @"foodCategoryDelete"
+#define kDBFoodCategoryAddKey            @"foodCategoryAdd"
+#define kDBFoodMushroomUpdateKey         @"foodMushroomUpdate"
+
+// 各サイズ
+#define kNavigationBarHeight 44.0f
+#define kTabBarHeight 49.0f
+#define kStatusBarHeight 20.0f
+#define kDisplayHeight 480.0f
+#define kDisplayMinHeight (kDisplayHeight - kStatusBarHeight - kNavigationBarHeight - kTabBarHeight)
+#define kDisplayWidth 320.0f
+#define kConstitutionDiagnosisCellHeight 59.0f
+#define kConstitutionDiagnosisMessageCellHeight 59.0f
+#define kArrowIconSizeWidth 14.0f
+#define kArrowIconSizeHeight 14.0f
+
+// 文字サイズ
+#define kRecipeCellRecipeNameFontSize 15
+#define kTimeAndCalorieFontSize 16
+
+// 座標
+#define kArrowIconOffsetX 282.0f
+
+// ナビゲーションバー
+#define kNavigationBarFrame CGRectMake(0, 0, 320, 44)
+#define kNavigationBarTitleTextColor [UIColor whiteColor]
+#define kNavigationBarTitleShadowColor [UIColor darkGrayColor]
+#define kNavigationBarTitleImageFrame CGRectMake(0, 0, 320, 44)
+#define kNavigationBarTitleLabelFrame CGRectMake(0, 0, 320, 44) // 削除します
+#define kNavigationBarLeftButtonOriginX 10
+#define kNavigationBarRightButtonOriginX 255
+#define kNavigationBarButtonOriginY 7
+
+/* ボタンのタッチ検知範囲を拡大する */
+#define kButtonTouchBuffer 20
+
+#define kQ01 @"Q01"
+
+// 体質診断　設問
+#define kKeyText @"TEXT"
+#define kKeyType @"TYPE"
+#define kKeyPoint @"POINT"
+
+// 体質診断　結果
+#define kKeyConstitution @"CONSTITUTION"
+#define kKeyConstitutionRuby @"CONSTITUTION_RUBY"
+#define kKeyStatus @"STATUS"
+#define kKeyDiagnosis @"DIAGNOSIS"
+#define kKeyCause @"CAUSE"
+#define kKeySolution @"SOLUTION"
+#define kKeyNavBarTitle @"NAV_BAR_TITLE"
+
+//--------------------リード文----------------------//
+#define kLeadTecho @"糖質オフダイエットを成功させるための基礎知識や食材の効能など、すぐに使える情報が盛りだくさんです。"
+
+// 教えて薬膳リード文
+#define kLeadMedicinalCarbOffColumn @"糖質オフダイエットについて、タイプ別のダイエットのコツや、ダイエットを始める前に知っておきたいことが簡単にわかるコラムです。タブーとされているダイエット中のお酒の飲み方や、お腹いっぱい食べたいあなたにおすすめの食べ方などについても書かれていますので、美味しく楽しくダイエットできることでしょう！"
+
+// ダイエット食材辞典リード文
+#define kLeadFoodDictionaryTitle @"糖質オフダイエットにおすすめの厳選食材"
+#define kLeadFoodDictionaryContent @"体の内側から作用する糖質オフ薬膳食材を、日本国際薬膳師会公認により、中医学の理論に基づいてご紹介します。糖質量も記載してありますので、こちらの食材を使って体の中からスリムになりましょう。"
+
+// 薬膳辞典リード文
+#define kLeadMedicinalCarbOffDictionary @"糖質オフダイエットを知る上で覚えておきたい基本的な薬膳の用語、考え方をまとめています。"
+
+// ダイエット体質診断リード文
+#define kLeadConstitutionDiagnosis1 @"ダイエット中に選んでいる食材は、あなたの体に合っていますか？"
+#define kLeadConstitutionDiagnosis2 @"スリムになるためのダイエットには、それぞれの体質に合わせた食材を摂ることが大切です。さっそく、体質診断を始めましょう。"
+#define kLeadConstitutionDiagnosisSupervisor1  @"【監修】"
+#define kLeadConstitutionDiagnosisSupervisor2  @"堀 実佐子先生"
+#define kLeadConstitutionDiagnosisSupervisor3  @"(国際薬膳師/日本国際薬膳師会副会長/和快代表)"
+#define kLeadConstitutionDiagnosisSupervisor4  @"【参考文献】"
+#define kLeadConstitutionDiagnosisSupervisor5  @"江部康二(2010)"
+#define kLeadConstitutionDiagnosisSupervisor6  @"『糖尿病がどんどんよくなる糖質制限食』"
+#define kLeadConstitutionDiagnosisSupervisor7  @"ナツメ社"
+#define kLeadConstitutionDiagnosisSupervisor8  @"江部康二(2011)"
+#define kLeadConstitutionDiagnosisSupervisor9  @"『主食を抜けば糖尿病は良くなる！』"
+#define kLeadConstitutionDiagnosisSupervisor10 @"東洋経済新報社"
+//-------------------------------------------------//
+
+#define kSqlFoodInsert1 @"UPDATE food SET food_search_no = '1', food_name_furigana = 'あさり' WHERE food_search_no = '8';"
+#define kSqlFoodInsert2 @"UPDATE food SET food_search_no = '2', food_name_furigana = 'いちじく' WHERE food_search_no = '27';"
+#define kSqlFoodInsert3 @"UPDATE food SET food_search_no = '3', food_name_furigana = 'えのきだけ' WHERE food_search_no = '40';"
+#define kSqlFoodInsert4 @"UPDATE food SET food_search_no = '4', food_name_furigana = 'えび' WHERE food_search_no = '41';"
+#define kSqlFoodInsert5 @"UPDATE food SET food_search_no = '5', food_name_furigana = 'おうぎ' WHERE food_search_no = '45';"
+#define kSqlFoodInsert6 @"UPDATE food SET food_search_no = '6', food_name_furigana = 'かに' WHERE food_search_no = '64';"
+#define kSqlFoodInsert7 @"UPDATE food SET food_search_no = '7', food_name_furigana = 'かぶ' WHERE food_search_no = '65';"
+#define kSqlFoodInsert8 @"UPDATE food SET food_search_no = '8', food_name_furigana = 'かぼちゃ' WHERE food_search_no = '67';"
+#define kSqlFoodInsert9 @"UPDATE food SET food_search_no = '9', food_name_furigana = 'かりふらわー' WHERE food_search_no = '71';"
+#define kSqlFoodInsert10 @"UPDATE food SET food_search_no = '10', food_name_furigana = 'きくらげ' WHERE food_search_no = '77';"
+#define kSqlFoodInsert11 @"UPDATE food SET food_search_no = '11', food_name_furigana = 'きっか' WHERE food_search_no = '78';"
+#define kSqlFoodInsert12 @"UPDATE food SET food_search_no = '12', food_name_furigana = 'きむち' WHERE food_search_no = '83';"
+#define kSqlFoodInsert13 @"UPDATE food SET food_search_no = '13', food_name_furigana = 'きゃべつ' WHERE food_search_no = '84';"
+#define kSqlFoodInsert14 @"UPDATE food SET food_search_no = '14', food_name_furigana = 'ぎゅうにく' WHERE food_search_no = '86';"
+#define kSqlFoodInsert15 @"UPDATE food SET food_search_no = '15', food_name_furigana = 'きゅうり' WHERE food_search_no = '88';"
+#define kSqlFoodInsert16 @"UPDATE food SET food_search_no = '16', food_name_furigana = 'きんしんさい' WHERE food_search_no = '95';"
+#define kSqlFoodInsert17 @"UPDATE food SET food_search_no = '17', food_name_furigana = 'くうしんさい' WHERE food_search_no = '97';"
+#define kSqlFoodInsert18 @"UPDATE food SET food_search_no = '18', food_name_furigana = 'ぐりーんぴーす' WHERE food_search_no = '109';"
+#define kSqlFoodInsert19 @"UPDATE food SET food_search_no = '19', food_name_furigana = 'ぐれーぷふるーつ' WHERE food_search_no = '113';"
+#define kSqlFoodInsert20 @"UPDATE food SET food_search_no = '20', food_name_furigana = 'くろまい' WHERE food_search_no = '118';"
+#define kSqlFoodInsert21 @"UPDATE food SET food_search_no = '21', food_name_furigana = 'けつめいし' WHERE food_search_no = '123';"
+#define kSqlFoodInsert22 @"UPDATE food SET food_search_no = '22', food_name_furigana = 'ごこくまい' WHERE food_search_no = '131';"
+#define kSqlFoodInsert23 @"UPDATE food SET food_search_no = '23', food_name_furigana = 'ごぼう' WHERE food_search_no = '138';"
+#define kSqlFoodInsert24 @"UPDATE food SET food_search_no = '24', food_name_furigana = 'こんにゃく' WHERE food_search_no = '149';"
+#define kSqlFoodInsert25 @"UPDATE food SET food_search_no = '25', food_name_furigana = 'さつまいも' WHERE food_search_no = '161';"
+#define kSqlFoodInsert26 @"UPDATE food SET food_search_no = '26', food_name_furigana = 'さといも' WHERE food_search_no = '162';"
+#define kSqlFoodInsert27 @"UPDATE food SET food_search_no = '27', food_name_furigana = 'さやえんどう' WHERE food_search_no = '167';"
+#define kSqlFoodInsert28 @"UPDATE food SET food_search_no = '28', food_name_furigana = 'さんざし' WHERE food_search_no = '172';"
+#define kSqlFoodInsert29 @"UPDATE food SET food_search_no = '29', food_name_furigana = 'しいたけ' WHERE food_search_no = '176';"
+#define kSqlFoodInsert30 @"UPDATE food SET food_search_no = '30', food_name_furigana = 'しじみ' WHERE food_search_no = '181';"
+#define kSqlFoodInsert31 @"UPDATE food SET food_search_no = '31', food_name_furigana = 'しめじ' WHERE food_search_no = '185';"
+#define kSqlFoodInsert32 @"UPDATE food SET food_search_no = '32', food_name_furigana = 'じゃがいも' WHERE food_search_no = '189';"
+#define kSqlFoodInsert33 @"UPDATE food SET food_search_no = '33', food_name_furigana = 'しゅんぎく' WHERE food_search_no = '195';"
+#define kSqlFoodInsert34 @"UPDATE food SET food_search_no = '34', food_name_furigana = 'しょうが' WHERE food_search_no = '197';"
+#define kSqlFoodInsert35 @"UPDATE food SET food_search_no = '35', food_name_furigana = 'しょうたまねぎ' WHERE food_search_no = '199';"
+#define kSqlFoodInsert36 @"UPDATE food SET food_search_no = '36', food_name_furigana = 'しらたき' WHERE food_search_no = '202';"
+#define kSqlFoodInsert37 @"UPDATE food SET food_search_no = '37', food_name_furigana = 'せろり' WHERE food_search_no = '232';"
+#define kSqlFoodInsert38 @"UPDATE food SET food_search_no = '38', food_name_furigana = 'そいみーと' WHERE food_search_no = '239';"
+#define kSqlFoodInsert39 @"UPDATE food SET food_search_no = '39', food_name_furigana = 'だいこん' WHERE food_search_no = '242';"
+#define kSqlFoodInsert40 @"UPDATE food SET food_search_no = '40', food_name_furigana = 'だいず' WHERE food_search_no = '243';"
+#define kSqlFoodInsert41 @"UPDATE food SET food_search_no = '41', food_name_furigana = 'たけのこ' WHERE food_search_no = '248';"
+#define kSqlFoodInsert42 @"UPDATE food SET food_search_no = '42', food_name_furigana = 'たまねぎ' WHERE food_search_no = '252';"
+#define kSqlFoodInsert43 @"UPDATE food SET food_search_no = '43', food_name_furigana = 'たら' WHERE food_search_no = '253';"
+#define kSqlFoodInsert44 @"UPDATE food SET food_search_no = '44', food_name_furigana = 'ちんげんさい' WHERE food_search_no = '264';"
+#define kSqlFoodInsert45 @"UPDATE food SET food_search_no = '45', food_name_furigana = 'ちんぴ' WHERE food_search_no = '266';"
+#define kSqlFoodInsert46 @"UPDATE food SET food_search_no = '46', food_name_furigana = 'とうふ' WHERE food_search_no = '276';"
+#define kSqlFoodInsert47 @"UPDATE food SET food_search_no = '47', food_name_furigana = 'とちゅう' WHERE food_search_no = '280';"
+#define kSqlFoodInsert48 @"UPDATE food SET food_search_no = '48', food_name_furigana = 'とまと' WHERE food_search_no = '281';"
+#define kSqlFoodInsert49 @"UPDATE food SET food_search_no = '49', food_name_furigana = 'とりにく' WHERE food_search_no = '288';"
+#define kSqlFoodInsert50 @"UPDATE food SET food_search_no = '50', food_name_furigana = 'ながいも' WHERE food_search_no = '289';"
+#define kSqlFoodInsert51 @"UPDATE food SET food_search_no = '51', food_name_furigana = 'ながねぎ' WHERE food_search_no = '290';"
+#define kSqlFoodInsert52 @"UPDATE food SET food_search_no = '52', food_name_furigana = 'なす' WHERE food_search_no = '292';"
+#define kSqlFoodInsert53 @"UPDATE food SET food_search_no = '53', food_name_furigana = 'なっとう' WHERE food_search_no = '294';"
+#define kSqlFoodInsert54 @"UPDATE food SET food_search_no = '54', food_name_furigana = 'なつめ' WHERE food_search_no = '295';"
+#define kSqlFoodInsert55 @"UPDATE food SET food_search_no = '55', food_name_furigana = 'なめこ' WHERE food_search_no = '299';"
+#define kSqlFoodInsert56 @"UPDATE food SET food_search_no = '56', food_name_furigana = 'にら' WHERE food_search_no = '300';"
+#define kSqlFoodInsert57 @"UPDATE food SET food_search_no = '57', food_name_furigana = 'にんじん' WHERE food_search_no = '301';"
+#define kSqlFoodInsert58 @"UPDATE food SET food_search_no = '58', food_name_furigana = 'のり' WHERE food_search_no = '309';"
+#define kSqlFoodInsert59 @"UPDATE food SET food_search_no = '59', food_name_furigana = 'ぱいなっぷる' WHERE food_search_no = '311';"
+#define kSqlFoodInsert60 @"UPDATE food SET food_search_no = '60', food_name_furigana = 'はくさい' WHERE food_search_no = '315';"
+#define kSqlFoodInsert61 @"UPDATE food SET food_search_no = '61', food_name_furigana = 'はとむぎ' WHERE food_search_no = '328';"
+#define kSqlFoodInsert62 @"UPDATE food SET food_search_no = '62', food_name_furigana = 'ぱぷりか' WHERE food_search_no = '332';"
+#define kSqlFoodInsert63 @"UPDATE food SET food_search_no = '63', food_name_furigana = 'はまぐり' WHERE food_search_no = '333';"
+#define kSqlFoodInsert64 @"UPDATE food SET food_search_no = '64', food_name_furigana = 'ひよこまめ' WHERE food_search_no = '347';"
+#define kSqlFoodInsert65 @"UPDATE food SET food_search_no = '65', food_name_furigana = 'ぶたにく' WHERE food_search_no = '354';"
+#define kSqlFoodInsert66 @"UPDATE food SET food_search_no = '66', food_name_furigana = 'ほうれんそう' WHERE food_search_no = '369';"
+#define kSqlFoodInsert67 @"UPDATE food SET food_search_no = '67', food_name_furigana = 'ほししいたけ' WHERE food_search_no = '373';"
+#define kSqlFoodInsert68 @"UPDATE food SET food_search_no = '68', food_name_furigana = 'まいかいか' WHERE food_search_no = '378';"
+#define kSqlFoodInsert69 @"UPDATE food SET food_search_no = '69', food_name_furigana = 'まいたけ' WHERE food_search_no = '379';"
+#define kSqlFoodInsert70 @"UPDATE food SET food_search_no = '70', food_name_furigana = 'まぐろ' WHERE food_search_no = '381';"
+#define kSqlFoodInsert71 @"UPDATE food SET food_search_no = '71', food_name_furigana = 'まっしゅるーむ' WHERE food_search_no = '383';"
+#define kSqlFoodInsert72 @"UPDATE food SET food_search_no = '72', food_name_furigana = 'まつのみ' WHERE food_search_no = '386';"
+#define kSqlFoodInsert73 @"UPDATE food SET food_search_no = '73', food_name_furigana = 'みずな' WHERE food_search_no = '394';"
+#define kSqlFoodInsert74 @"UPDATE food SET food_search_no = '74', food_name_furigana = 'むーるがい' WHERE food_search_no = '404';"
+#define kSqlFoodInsert75 @"UPDATE food SET food_search_no = '75', food_name_furigana = 'もずく' WHERE food_search_no = '410';"
+#define kSqlFoodInsert76 @"UPDATE food SET food_search_no = '76', food_name_furigana = 'もやし' WHERE food_search_no = '416';"
+#define kSqlFoodInsert77 @"UPDATE food SET food_search_no = '77', food_name_furigana = 'やまいも' WHERE food_search_no = '418';"
+#define kSqlFoodInsert78 @"UPDATE food SET food_search_no = '78', food_name_furigana = 'ゆずかわ' WHERE food_search_no = '420';"
+#define kSqlFoodInsert79 @"UPDATE food SET food_search_no = '79', food_name_furigana = 'ようにく' WHERE food_search_no = '424';"
+#define kSqlFoodInsert80 @"UPDATE food SET food_search_no = '80', food_name_furigana = 'よーぐると' WHERE food_search_no = '425';"
+#define kSqlFoodInsert81 @"UPDATE food SET food_search_no = '81', food_name_furigana = 'りーき' WHERE food_search_no = '437';"
+#define kSqlFoodInsert82 @"UPDATE food SET food_search_no = '82', food_name_furigana = 'りんご' WHERE food_search_no = '441';"
+#define kSqlFoodInsert83 @"UPDATE food SET food_search_no = '83', food_name_furigana = 'れたす' WHERE food_search_no = '445';"
+#define kSqlFoodInsert84 @"UPDATE food SET food_search_no = '84', food_name_furigana = 'わかめ' WHERE food_search_no = '460';"
+
+#endif

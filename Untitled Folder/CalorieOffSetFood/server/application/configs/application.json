@@ -1,0 +1,28 @@
+{
+	"production":{
+		"phpSettings":{
+			"display_startup_errors":false,
+			"display_errors":false,
+			"session":{
+				"auto_start":false
+			}
+		},
+		"appnamespace": "Application",
+		"resources":{
+			"frontController":{
+				"controllerDirectory": "APPLICATION_PATH/controllers",
+				"moduleDirectory": "APPLICATION_PATH/modules",
+				"params":{
+					"displayExceptions": false
+				}
+			}
+		},
+		"includePaths":{
+			"library":"APPLICATION_PATH/../library"
+		},
+		"bootstrap":{
+			"path": "APPLICATION_PATH/Bootstrap.php",
+			"class": "App_Bootstrap"
+		}
+	}
+}

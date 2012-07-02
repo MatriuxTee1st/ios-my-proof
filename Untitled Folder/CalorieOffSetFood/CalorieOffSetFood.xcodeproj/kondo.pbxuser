@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* MedicinalCooking */ = {
+		activeExec = 0;
+		executables = (
+			9EE45F66144AB17B0067165E /* MedicinalCooking */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 9EE45F66144AB17B0067165E /* MedicinalCooking */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* MedicinalCooking */;
+		breakpoints = (
+			9EE4613B144AD1920067165E /* FoodSearchTableViewController.m:393 */,
+			9EE463B8144AFF3D0067165E /* FoodSearchTableViewController.m:386 */,
+			9EE46605144B0FEE0067165E /* FoodSectionEntity.m:26 */,
+			9EE46612144B10040067165E /* FoodSectionEntity.m:26 */,
+			9EE4661E144B10450067165E /* FoodSectionEntity.m:21 */,
+		);
+		codeSenseManager = 9EE45F7A144AB1A00067165E /* Code sense */;
+		executables = (
+			9EE45F66144AB17B0067165E /* MedicinalCooking */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					106,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 340489936;
+			PBXWorkspaceStateSaveDate = 340489936;
+		};
+		perUserProjectItems = {
+			9EE45FF9144ABCE90067165E /* PBXTextBookmark */ = 9EE45FF9144ABCE90067165E /* PBXTextBookmark */;
+			9EE45FFC144ABCE90067165E /* PBXTextBookmark */ = 9EE45FFC144ABCE90067165E /* PBXTextBookmark */;
+			9EE461D8144ADFDF0067165E /* PBXTextBookmark */ = 9EE461D8144ADFDF0067165E /* PBXTextBookmark */;
+			9EE461D9144ADFDF0067165E /* PBXTextBookmark */ = 9EE461D9144ADFDF0067165E /* PBXTextBookmark */;
+			9EE461DA144ADFDF0067165E /* PBXTextBookmark */ = 9EE461DA144ADFDF0067165E /* PBXTextBookmark */;
+			9EE462CC144AEC950067165E /* PBXTextBookmark */ = 9EE462CC144AEC950067165E /* PBXTextBookmark */;
+			9EE4632D144AF2FC0067165E /* PBXTextBookmark */ = 9EE4632D144AF2FC0067165E /* PBXTextBookmark */;
+			9EE46368144AFA680067165E /* PBXTextBookmark */ = 9EE46368144AFA680067165E /* PBXTextBookmark */;
+			9EE46369144AFA680067165E /* PBXTextBookmark */ = 9EE46369144AFA680067165E /* PBXTextBookmark */;
+			9EE4636A144AFA680067165E /* PBXTextBookmark */ = 9EE4636A144AFA680067165E /* PBXTextBookmark */;
+			9EE46383144AFD9B0067165E /* PBXTextBookmark */ = 9EE46383144AFD9B0067165E /* PBXTextBookmark */;
+			9EE465B8144B0E680067165E /* PBXTextBookmark */ = 9EE465B8144B0E680067165E /* PBXTextBookmark */;
+			9EE466D6144B17400067165E /* PBXTextBookmark */ = 9EE466D6144B17400067165E /* PBXTextBookmark */;
+			9EE466E4144B17DA0067165E /* PBXTextBookmark */ = 9EE466E4144B17DA0067165E /* PBXTextBookmark */;
+			9EE46787144B77410067165E /* PBXBookmark */ = 9EE46787144B77410067165E /* PBXBookmark */;
+			9EE4678C144B77500067165E /* PBXTextBookmark */ = 9EE4678C144B77500067165E /* PBXTextBookmark */;
+			9EE46798144B77890067165E /* PBXTextBookmark */ = 9EE46798144B77890067165E /* PBXTextBookmark */;
+			9EE467BF144B79C20067165E /* PBXTextBookmark */ = 9EE467BF144B79C20067165E /* PBXTextBookmark */;
+			9EE467C0144B79C20067165E /* PBXTextBookmark */ = 9EE467C0144B79C20067165E /* PBXTextBookmark */;
+			9EE467D5144B7BFF0067165E /* PBXTextBookmark */ = 9EE467D5144B7BFF0067165E /* PBXTextBookmark */;
+			9EE467D6144B7BFF0067165E /* PBXTextBookmark */ = 9EE467D6144B7BFF0067165E /* PBXTextBookmark */;
+		};
+		sourceControlManager = 9EE45F79144AB1A00067165E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	9EE45F66144AB17B0067165E /* MedicinalCooking */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MedicinalCooking;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$fctrl = 1;
+			$fioff = 1;
+			$fiseg = 1;
+			$fooff = 1;
+			$fop = 1;
+			$foseg = 1;
+			$fs = 1;
+			$fstat = 1;
+			$ftag = 1;
+			$gs = 1;
+			$mxcsr = 1;
+			$ss = 1;
+		};
+	};
+	9EE45F79144AB1A00067165E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	9EE45F7A144AB1A00067165E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	9EE45FF9144ABCE90067165E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECC82A2A144583A900212FA3 /* FMDatabaseAdditions.m */;
+		name = "FMDatabaseAdditions.m: 126";
+		rLen = 0;
+		rLoc = 4399;
+		rType = 0;
+		vrLen = 758;
+		vrLoc = 4028;
+	};
+	9EE45FFC144ABCE90067165E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECC8269B14451BEA00212FA3 /* ConstitutionDetailTableViewController.m */;
+		name = "ConstitutionDetailTableViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	9EE4613B144AD1920067165E /* FoodSearchTableViewController.m:393 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = ECB272D8143C371300E0DE31 /* FoodSearchTableViewController.m */;
+		functionName = "-dealloc";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 393;
+		location = MedicinalCooking;
+		modificationTime = 340463878.804841;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	9EE461D8144ADFDF0067165E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECC8269A14451BEA00212FA3 /* ConstitutionDetailTableViewController.h */;
+		name = "ConstitutionDetailTableViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 492;
+		vrLoc = 0;
+	};
+	9EE461D9144ADFDF0067165E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECC0049A1446A4D500D9330B /* ConstitutionDiagnosisTableViewController.m */;
+		name = "ConstitutionDiagnosisTableViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 545;
+		vrLoc = 0;
+	};
+	9EE461DA144ADFDF0067165E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBBEFE4143E7C7400BD8A41 /* HurryDiagnosisTableViewController.m */;
+		name = "HurryDiagnosisTableViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 548;
+		vrLoc = 0;
+	};
+	9EE462CC144AEC950067165E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBBF166143EF2E700BD8A41 /* HurryDiagnosis2TableViewController.m */;
+		name = "HurryDiagnosis2TableViewController.m: 329";
+		rLen = 0;
+		rLoc = 12504;
+		rType = 0;
+		vrLen = 836;
+		vrLoc = 305;
+	};
+	9EE4632D144AF2FC0067165E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBBF165143EF2E700BD8A41 /* HurryDiagnosis2TableViewController.h */;
+		name = "HurryDiagnosis2TableViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 666;
+		vrLoc = 0;
+	};
+	9EE46368144AFA680067165E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECB652C61447F2D400D08508 /* FoodModel.m */;
+		name = "FoodModel.m: 19";
+		rLen = 0;
+		rLoc = 330;
+		rType = 0;
+		vrLen = 460;
+		vrLoc = 0;
+	};
+	9EE46369144AFA680067165E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECBBF0A0143ED47A00BD8A41 /* HurryDiagnosisTableViewCell.h */;
+		name = "HurryDiagnosisTableViewCell.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 590;
+		vrLoc = 0;
+	};
+	9EE4636A144AFA680067165E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECB651971447CE8F00D08508 /* RecipeCellEntity.h */;
+		name = "RecipeCellEntity.h: 23";
+		rLen = 0;
+		rLoc = 439;
+		rType = 0;
+		vrLen = 612;
+		vrLoc = 50;
+	};
+	9EE46383144AFD9B0067165E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECB272D7143C371300E0DE31 /* FoodSearchTableViewController.h */;
+		name = "FoodSearchTableViewController.h: 23";
+		rLen = 0;
+		rLoc = 512;
+		rType = 0;
+		vrLen = 543;
+		vrLoc = 0;
+	};
+	9EE463B8144AFF3D0067165E /* FoodSearchTableViewController.m:386 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = ECB272D8143C371300E0DE31 /* FoodSearchTableViewController.m */;
+		functionName = "-dealloc";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 386;
+		location = MedicinalCooking;
+		modificationTime = 340463891.8575031;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	9EE465B8144B0E680067165E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECB652C51447F2D400D08508 /* FoodModel.h */;
+		name = "FoodModel.h: 18";
+		rLen = 0;
+		rLoc = 350;
+		rType = 0;
+		vrLen = 453;
+		vrLoc = 0;
+	};
+	9EE46605144B0FEE0067165E /* FoodSectionEntity.m:26 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = ECB6510A1447C58700D08508 /* FoodSectionEntity.m */;
+		functionName = "-dealloc";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 26;
+		location = MedicinalCooking;
+		modificationTime = 340463899.128898;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	9EE46612144B10040067165E /* FoodSectionEntity.m:26 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = ECB6510A1447C58700D08508 /* FoodSectionEntity.m */;
+		functionName = "-dealloc";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 26;
+		location = MedicinalCooking;
+		modificationTime = 340463901.534802;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	9EE4661E144B10450067165E /* FoodSectionEntity.m:21 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = ECB6510A1447C58700D08508 /* FoodSectionEntity.m */;
+		functionName = "-dealloc";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 21;
+		location = MedicinalCooking;
+		modificationTime = 340463897.159973;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	9EE466D6144B17400067165E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECB272D8143C371300E0DE31 /* FoodSearchTableViewController.m */;
+		name = "FoodSearchTableViewController.m: 388";
+		rLen = 5;
+		rLoc = 16083;
+		rType = 0;
+		vrLen = 583;
+		vrLoc = 15030;
+	};
+	9EE466E4144B17DA0067165E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECB651091447C58700D08508 /* FoodSectionEntity.h */;
+		name = "FoodSectionEntity.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 474;
+		vrLoc = 0;
+	};
+	9EE46787144B77410067165E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = ECB651981447CE8F00D08508 /* RecipeCellEntity.m */;
+	};
+	9EE4678C144B77500067165E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECB651981447CE8F00D08508 /* RecipeCellEntity.m */;
+		name = "RecipeCellEntity.m: 25";
+		rLen = 0;
+		rLoc = 545;
+		rType = 0;
+		vrLen = 584;
+		vrLoc = 141;
+	};
+	9EE46798144B77890067165E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECB6510A1447C58700D08508 /* FoodSectionEntity.m */;
+		name = "FoodSectionEntity.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 441;
+		vrLoc = 0;
+	};
+	9EE467BF144B79C20067165E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECC82A1A14457C6100212FA3 /* DatabaseUtility.m */;
+		name = "DatabaseUtility.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 704;
+		vrLoc = 3;
+	};
+	9EE467C0144B79C20067165E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECC0027C1446830100D9330B /* TopTableViewController.m */;
+		name = "TopTableViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 509;
+		vrLoc = 0;
+	};
+	9EE467D5144B7BFF0067165E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECB272D8143C371300E0DE31 /* FoodSearchTableViewController.m */;
+		name = "FoodSearchTableViewController.m: 386";
+		rLen = 5;
+		rLoc = 16083;
+		rType = 0;
+		vrLen = 579;
+		vrLoc = 15030;
+	};
+	9EE467D6144B7BFF0067165E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ECB651981447CE8F00D08508 /* RecipeCellEntity.m */;
+		name = "RecipeCellEntity.m: 25";
+		rLen = 0;
+		rLoc = 670;
+		rType = 0;
+		vrLen = 776;
+		vrLoc = 0;
+	};
+	ECB272D7143C371300E0DE31 /* FoodSearchTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {887, 592}}";
+			sepNavSelRange = "{512, 0}";
+			sepNavVisRange = "{0, 575}";
+		};
+	};
+	ECB272D8143C371300E0DE31 /* FoodSearchTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {817, 5362}}";
+			sepNavSelRange = "{16083, 5}";
+			sepNavVisRange = "{15030, 579}";
+			sepNavWindowFrame = "{{291, 58}, {946, 720}}";
+		};
+	};
+	ECB651091447C58700D08508 /* FoodSectionEntity.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 294}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 474}";
+		};
+	};
+	ECB6510A1447C58700D08508 /* FoodSectionEntity.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {467, 441}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 441}";
+			sepNavWindowFrame = "{{267, 160}, {1013, 618}}";
+		};
+	};
+	ECB651971447CE8F00D08508 /* RecipeCellEntity.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {515, 571}}";
+			sepNavSelRange = "{662, 0}";
+			sepNavVisRange = "{0, 662}";
+			sepNavWindowFrame = "{{50, 51}, {574, 722}}";
+		};
+	};
+	ECB651981447CE8F00D08508 /* RecipeCellEntity.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {901, 594}}";
+			sepNavSelRange = "{670, 0}";
+			sepNavVisRange = "{0, 776}";
+			sepNavWindowFrame = "{{50, 51}, {574, 722}}";
+		};
+	};
+	ECB652C51447F2D400D08508 /* FoodModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {946, 551}}";
+			sepNavSelRange = "{251, 24}";
+			sepNavVisRange = "{0, 453}";
+			sepNavWindowFrame = "{{119, 8}, {1005, 702}}";
+		};
+	};
+	ECB652C61447F2D400D08508 /* FoodModel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {946, 551}}";
+			sepNavSelRange = "{450, 0}";
+			sepNavVisRange = "{0, 539}";
+			sepNavWindowFrame = "{{275, 76}, {1005, 702}}";
+		};
+	};
+	ECBBEFE3143E7C7400BD8A41 /* HurryDiagnosisTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {556, 542}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 499}";
+			sepNavWindowFrame = "{{50, 103}, {615, 670}}";
+		};
+	};
+	ECBBEFE4143E7C7400BD8A41 /* HurryDiagnosisTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {565, 3699}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 548}";
+		};
+	};
+	ECBBF0A0143ED47A00BD8A41 /* HurryDiagnosisTableViewCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {431, 346}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 590}";
+		};
+	};
+	ECBBF165143EF2E700BD8A41 /* HurryDiagnosis2TableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {509, 372}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 666}";
+			sepNavWindowFrame = "{{73, 82}, {615, 670}}";
+		};
+	};
+	ECBBF166143EF2E700BD8A41 /* HurryDiagnosis2TableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 4361}}";
+			sepNavSelRange = "{12399, 0}";
+			sepNavVisRange = "{11513, 1002}";
+			sepNavWindowFrame = "{{614, 108}, {615, 670}}";
+		};
+	};
+	ECC0027C1446830100D9330B /* TopTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {565, 2789}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 509}";
+			sepNavWindowFrame = "{{165, 50}, {1013, 618}}";
+		};
+	};
+	ECC004991446A4D500D9330B /* ConstitutionDiagnosisTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {556, 542}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 501}";
+			sepNavWindowFrame = "{{142, 19}, {615, 670}}";
+		};
+	};
+	ECC0049A1446A4D500D9330B /* ConstitutionDiagnosisTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {565, 3066}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 545}";
+			sepNavWindowFrame = "{{73, 45}, {853, 707}}";
+		};
+	};
+	ECC8269A14451BEA00212FA3 /* ConstitutionDetailTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {530, 311}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 492}";
+		};
+	};
+	ECC8269B14451BEA00212FA3 /* ConstitutionDetailTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {678, 2867}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 497}";
+			sepNavWindowFrame = "{{96, 24}, {853, 707}}";
+		};
+	};
+	ECC82A1914457C6100212FA3 /* DatabaseUtility.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {946, 574}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 615}";
+		};
+	};
+	ECC82A1A14457C6100212FA3 /* DatabaseUtility.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {796, 2040}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3, 704}";
+			sepNavWindowFrame = "{{218, 76}, {1005, 702}}";
+		};
+	};
+	ECC82A29144583A900212FA3 /* FMDatabaseAdditions.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {655, 481}}";
+			sepNavSelRange = "{199, 0}";
+			sepNavVisRange = "{0, 331}";
+		};
+	};
+	ECC82A2A144583A900212FA3 /* FMDatabaseAdditions.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 1976}}";
+			sepNavSelRange = "{4399, 0}";
+			sepNavVisRange = "{4157, 699}";
+		};
+	};
+	ECC82A4214458B7700212FA3 /* FMResultSet.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {954, 5031}}";
+			sepNavSelRange = "{6844, 0}";
+			sepNavVisRange = "{6413, 1221}";
+			sepNavWindowFrame = "{{252, 106}, {1013, 618}}";
+		};
+	};
+}

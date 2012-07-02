@@ -1,0 +1,8 @@
+{
+	"production":{
+		"path":"APPLICATION_PATH/../public/img/banner/",
+		"fileName":"banner.png",
+		"url": "http://www.google.co.jp",
+		"display_time":5000
+	}
+}
